@@ -1,0 +1,16 @@
+{
+  "grid": 200,
+  "skenario": 20000,
+  "workers": 8,
+  "waktu_serial_s": 0.969,
+  "waktu_paralel_s": 0.518,
+  "speedup": 1.87,
+  "efisiensi": 0.234,
+  "hasil_identik": true,
+  "ringkasan_risiko": {
+    "tinggi": 0.1385,
+    "sedang": 0.0655,
+    "rendah": 0.796,
+    "rata_rata_prob": 0.14768913875
+  }
+}
