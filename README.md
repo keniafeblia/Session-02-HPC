@@ -147,18 +147,6 @@ Contoh hasil pada mesin 2 inti (grid 200×200, 20.000 skenario):
 
 **Ringkasan risiko wilayah:** tinggi (probabilitas ≥ 50%) ≈ 13,9%, sedang (10–50%) ≈ 6,6%, rendah (< 10%) ≈ 79,6%.
 
-**Peta probabilitas banjir** (atas = pantai; spasi = aman, `@` = sangat rawan):
-
-```
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-%@%@@%%%%#%%%@%%%%%@@%%%@@%%@@@@@@@@@@%%%%%@%@%%%%@@%%%%#%%%%%%#%%
-**###*#######%##*######%%#%#%%%@@@@@@%%%#*##**##*##%######%##*#*#%
---+-:=-==-++-+:+-=+:-=--=+-==**%@@@@**+--=-=-+==-==-==--:-:=====--
-..:.::..:..:..:.-:........::::**%%%#*:::-.....:.:.:..:.....:...:.:
-  . ... ............... .....::--#*+-:.... ..................... .
-                             ...:--:. .                           
-```
-
 **Analisis singkat**
 - Wilayah dekat pantai dan alur sungai paling rawan, sesuai model: elevasi rendah dan pengaruh pasang paling kuat.
 - Speedup mendekati ideal karena setiap chunk berdiri sendiri (*embarrassingly parallel*), tanpa komunikasi antarproses selain reduksi akhir.
