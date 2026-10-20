@@ -9,7 +9,7 @@
 ![Parallel](https://img.shields.io/badge/Parallel-multiprocessing-2ea44f)
 ![Tests](https://img.shields.io/badge/Tests-4%20passed-brightgreen)
 
-*Tugas Resume Sesi 2 — Informatics Practitioner Lecture Series*
+*Tugas Studi Kasus dari Informatics Practitioner Lecture Series*
 *"Bridging Global Infrastructure to Address Local Challenge with HPC"*
 
 </div>
